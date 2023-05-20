@@ -47,9 +47,8 @@ nav a:visited {
 
 #container {
     margin: auto;
-    width: 75%;
-    height: 600px;
-    position: relative;
+    width: 1200px;
+    height: 500px;
     border: solid 3px hotpink;
 
 }
@@ -57,12 +56,10 @@ nav a:visited {
 h1 {
     font-family: 'Shrikhand', cursive;
     font-size: 100px;
-    line-height: 0;
     color:white;
     font-weight: normal;
-    position: absolute;
-    top: 200px;
-    left: 30px;
+    text-align: center;
+    padding-top: 150px;
 }
 
 img {
@@ -86,6 +83,8 @@ h2 {
     text-align: right; 
     font-weight: normal;
     position:absolute;
+    top: 450px;
+    left: 1090px;
 
 }
 
