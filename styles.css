@@ -3,33 +3,13 @@ body {
     background-color: #73C2FF;
     color: white;
 }
-
-h1 {
-    font-family: 'Shrikhand', cursive;
-    font-size: 100px;
+/* top section */
+header {
+    margin: auto;
     text-align: center;
-    padding-top: 200px;
-    margin: 0px;
-    line-height: 0;
-    letter-spacing: 3px;
-    color:white;
-    font-weight: normal;
-}
-
-span {
-    color: #635C70;
-}
-
-h2 {
-    font-family: 'Shrikhand', cursive;
-    font-size: 35px;
-    padding-top: 25px;
-    padding-bottom:30px;
-    margin-right: 40px;
-    margin-top: 0px;
-    text-align: right; 
-    font-weight: normal;
-
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
@@ -42,26 +22,7 @@ h3 {
     color: #635C70;
  
 }
-
-#container {
-    margin: auto;
-    width: 75%;
-
-}
-
-#container p {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-header {
-    margin: auto;
-    text-align: center;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
+ 
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -73,10 +34,70 @@ nav a {
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
+    font-size: 24px;
     color:#635C70;
+    text-decoration: none;
 }
+
+nav a:visited { 
+    text-decoration: none; 
+}
+
+/* main section */
+
+#container {
+    margin: auto;
+    width: 75%;
+    height: 600px;
+    position: relative;
+    border: solid 3px hotpink;
+
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 100px;
+    line-height: 0;
+    color:white;
+    font-weight: normal;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+img {
+    position: absolute;
+    padding-bottom: 30px;
+    padding-top: 140px;
+    padding-left: 170px;
+}
+
+span {
+    color: #635C70;
+}
+
+h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom:30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    text-align: right; 
+    font-weight: normal;
+    position:absolute;
+
+}
+
+#container p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* footer section */
 
 footer {
     text-align: center;
     padding-top: 70px;
 }
+
