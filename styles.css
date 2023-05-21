@@ -10,6 +10,7 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
+    
 }
 
 h3 {
@@ -23,7 +24,7 @@ h3 {
  
 }
  
-nav {
+/*nav {
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(255,255,255,0.6);
@@ -41,7 +42,7 @@ nav a {
 
 nav a:visited { 
     text-decoration: none; 
-}
+}*/
 
 /* main section */
 
@@ -101,4 +102,119 @@ footer {
     font-size: 11px;
 
 }
+
+
+/***************** navigation **********************/
+.header {
+    display:flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+
+nav ul {
+	-webkit-font-smoothing: antialiased;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+
+.dropdownleft {
+    padding-right: 75px;
+    padding-left: 150px;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.dropdownmiddle {
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: white;
+    padding-bottom: 22px;
+}
+
+.dropdownright {
+    padding-left: 75px;
+    padding-right: 150px;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+nav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+nav a {
+	color: #444;
+	display: block;
+    font-family: 'Fredoka', sans-serif;
+	padding-top: 20px;
+    padding-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	transition: all .70s ease;
+}
+
+nav li:hover a {
+	background: white;
+	color: #635C70;
+}
+
+nav li ul {
+	float: left;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 50px;
+	visibility: hidden;
+	z-index: 1;
+	transition: all .70s ease;
+    
+}
+
+nav li ul:last-of-type {
+    right: 0;
+}
+nav li:hover ul {
+	opacity: 1;
+	top: 70px;
+	visibility: visible;
+}
+
+nav li:hover ul:last-of-type{
+	opacity: 1;
+	top: 50px;
+	visibility: visible;
+}
+nav li ul li {
+	float: none;
+	width: 100%;
+}
+nav li ul a:hover {
+	background: #ffffff;
+    color: #E2D1F9;
+}
+
+nav ul li a:hover:after { 
+    transform: scaleX(1); 
+}
+/* Clearfix */
+.cf:after, .cf:before {
+	content: "";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+
+
 
