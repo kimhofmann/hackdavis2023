@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--fonts and css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet">
+
+     <!--scripts and libraries-->
+   <script src="script.js" defer></script>
+
+    <title>ForUs Team </title>
+</head>
+<body>
+  <header>
+    <h1>ForUs</h1>
+    <nav>
+        <a href="#">community</a>
+        <a href="#">resources</a>
+        <a href="#">about us</a>
+    </nav>
+ </header>
+ <main>
+    <section>
+        <h2>Volunteering</h2>
+        <p>
+            Interested in volunteering with ForUs? Fill out the form below and we will contact you within 3-5 business days. 
+        </p>
+        <p>
+            Thanks for wanting to joining the team! We’re happy to have you with us.
+        </p>
+      </section>
+
+      <section class="sec2">
+        <h2>Volunteer Sign-Up Form</h2>
+        <div class="form">
+        <form id="vForm">
+            <!-- full name -->
+            <label for="fName" for="lName">Full Name</label>
+            <div class="name">
+                <div class="fname">
+                    <input type="text1" id="fName" required>
+                    <p>first name</p>
+                </div>
+                <div class="lname">
+                    <input type="text1" id="lName" required>
+                    <p>last name</p>
+                </div>
+            </div>
+
+            <!-- contact -->
+            
+            <label for="email" for="phoneNum">Contact</label>
+            <div class="contact">
+                <div class="email">
+                    <input type="text1" id="email" required>
+                    <p>email</p>
+                </div>
+                <div class="phoneNum">
+                    <input type="text1" id="phoneNum" required>
+                    <p>phone number (US only)</p>
+                </div>
+            </div>
+
+            <!-- address -->
+
+            <label for="st1" for="st2" for="city" for="state" for="zip">Address</label>
+            <div class="address">
+                <div class="street">
+                    <div class="st1">
+                        <input type="text2" id="st1" required>
+                        <p>street adress line 1</p>
+                    </div>
+                    <div class="st2">
+                        <input type="text2" id="st2" required>
+                        <p>street adress line 2</p>
+                    </div>
+                </div>
+                <div class="location">
+                    <div class="city">
+                        <input type="text3" id="city" required>
+                        <p>city</p>
+                    </div>
+                    <div class="state">
+                        <input type="text4" id="state" required>
+                        <p>state</p>
+                    </div>
+                    <div class="zip">
+                        <input type="text5" id="zip" required>
+                        <p>zip code</p>
+                    </div>
+                </div>
+            </div>
+            <!-- volunteering info -->
+            
+            <label for="days" for="hours" for="preferences" for="nopes" for="limitations" for="general">Volunteering Info</label>
+            <div class="info">
+
+            <div class="time">
+                <div class="days">
+                    <input type="text1" id="days" required>
+                    <p>day(s) you would like to volunteer</p>
+                </div>
+               <div class="hours">
+                    <input type="text1" id="hours" required>
+                    <p># of hours per week you would like to volunteer</p>
+                </div>
+            </div>
+            <div class="pref">
+                <input type="text6" id="preferences" required>
+                <p>(volunteering opportunities are within our events team and resources team) please tell us your preference and why</p>
+                <input type="text6" id="nopes" required>
+                <p>do you have any jobs you would prefer to not do?</p>
+                <input type="text6" id="limitations" required>
+                <p>do you have any limitations we should know about?</p>
+                <input type="text6" id="general" required>
+                <p>is there anything else you would like to let us know?</p>
+            </div>
+        </div>
+        </form>
+        </div>
+      </section>
+</main>
+<div class="button">
+      <button>Submit</button>
+ </div>
+    
+</body>
+</html>
